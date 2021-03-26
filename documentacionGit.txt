@@ -1,0 +1,56 @@
+--inicializar git
+
+git init
+
+-- configurar nombre de usuario en git
+
+git config --global user.name 'nombre'
+
+--configurar correo
+
+git config --global user.email 'correo'
+
+
+-- observar configuracion de git
+
+git config --list
+
+
+--verificar el stado de los documentos o carpetas
+
+git status
+
+-- agregar  archivos para seguimiento [staging] -- tracked
+
+git add [archivo]
+
+otra opcion  - este comando toma todos los archivos para comenzar 
+hacerles seguimientos 
+
+git add . 
+
+--desmarcar archivo del estado temporal
+
+git rm --cached nombre.txt
+
+--este comando me permite guardar los archivos en mi repositorio local
+
+git commit -m 'descripcion del commit'
+
+
+-- este comando me muestra los cambios  que han existido en un archivo
+
+git show archivo.txt
+
+
+
+--historial de commit detallados
+
+git log [archivo]
+
+
+-- observar cambios entre commit
+
+git diff clave clave
+
+
