@@ -3,3 +3,11 @@ hola soy julian
 
 i am working in git
 now I am config git
+
+--agregando verbos en ingles
+
+work, run, walk, enjoy, see, take, try, cry, fly, start, begin,
+speak, head, teach, learn, love, stop, smell, jog, drink,
+ watch, play, eat, need, have, cut, cook, buy, pay, ask, belive, fall,
+let, travel, meet, driver, fix , rest, plant, remenber, reject, resolve,
+touch, want, like,search, 
