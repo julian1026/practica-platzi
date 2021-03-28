@@ -11,3 +11,5 @@ speak, head, teach, learn, love, stop, smell, jog, drink,
  watch, play, eat, need, have, cut, cook, buy, pay, ask, belive, fall,
 let, travel, meet, driver, fix , rest, plant, remenber, reject, resolve,
 touch, want, like,search, 
+
+never give up
