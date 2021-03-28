@@ -54,3 +54,4 @@ git log [archivo]
 git diff clave clave
 
 ==estudiat todos los dias
+cambio
