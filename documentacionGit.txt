@@ -48,6 +48,8 @@ git show archivo.txt
 
 git log [archivo]
 
+----muestra el historial de cambio especificos en cada commit desde el mas reciente al mas viejo
+git log --stat
 
 -- observar cambios entre commit
 
@@ -55,3 +57,8 @@ git diff clave clave
 
 ==estudiat todos los dias
 cambio
+
+
+==tener claro cunado implementar estos comandos
+
+git reset ********* --hard
