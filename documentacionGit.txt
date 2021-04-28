@@ -85,6 +85,12 @@ git branch 'nombre'
 
 git checkout nommbreRama
 
+ ver ramas
+==git branch
+
+=para fucionar ramas debo estabecer mi rama principal y despues realizo el merge
+
+git merge nombre_rama
 
 
 
