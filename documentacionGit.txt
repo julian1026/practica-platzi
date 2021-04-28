@@ -77,6 +77,17 @@ ejecuto esto
 git checkout main [archivo]
 
 
+=creacion de ramas
+
+git branch 'nombre'
+
+==viajar entre ramas 
+
+git checkout nommbreRama
+
+
+
+
 git log --oneline - Te muestra el id commit y el título del commit.
 git log --decorate- Te muestra donde se encuentra el head point en el log.
 git log --stat - Explica el número de líneas que se cambiaron brevemente.
