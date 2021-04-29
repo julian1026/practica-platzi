@@ -41,6 +41,7 @@ I was search to work but I don't get
 
 
 'pp'    'PO'    'PA'    'Ps Pr'     'RP'
+
 I       me      my        mine      myself
 you     you     your      yours     yourself
 he      him     his       his       hiself
@@ -49,7 +50,7 @@ you     your    your      yours     yourselves
 they    them    their     theirs    theirselves
 
 
-I go to follow learning English
+I go to follow learning English 
 
 ==take on me===
 ==stand by me==
@@ -126,3 +127,6 @@ sometimes the object of a sentences is a person or thing that performs and actio
 
 
 estamos en la rama cabecera  y estoy feliz
+
+
+estoy en la rama principal
