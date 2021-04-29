@@ -129,4 +129,7 @@ sometimes the object of a sentences is a person or thing that performs and actio
 estamos en la rama cabecera  y estoy feliz
 
 
-estoy en la rama principal
+
+
+estoy desde body
+y que body
