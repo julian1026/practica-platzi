@@ -133,4 +133,8 @@ estamos en la rama cabecera  y estoy feliz sigo aqui
 
 
 
+<<<<<<< HEAD
 quiero seguir adelante-- desde cabecera estoy desde mi main
+=======
+quiero seguir adelante-- desde cabecera, los mejores tiempos de mi vida los paso en casa con las  personas que amo
+>>>>>>> casa
