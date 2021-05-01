@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+
+    <script>
+      class Persona {
+        constructor(name, surname, age, email) {
+          this.name = name;
+          this.surname = surname;
+          this.age = age;
+          this.email = email;
+        }
+
+        saludar(regalo) {
+          let { name, surname } = this;
+          console.log(`Bienvenido senor(a) ${name} ${surname}`);
+          if (regalo) {
+            regalo(name, surname, false);
+          }
+        }
+
+        cumpleanos() {
+          let { name, surname, age } = this;
+          console.log(`Feliz ${age} anos, ${name} ${surname};
+         eres una persona importante para la sociedad`);
+        }
+
+        contacto() {
+          console.log(
+            `Atraves de este correo puedes contactarme ${this.email}`
+          );
+        }
+      }
+
+      class Ingeniero extends Persona {
+        constructor(name, surname, age, email, habilidad) {
+          super(name, surname, age, email);
+          this.habilidad = habilidad;
+        }
+
+        saludar(regalo) {
+          let { name, surname } = this;
+          console.log(`Bienvenido senor(a) ${name} ${surname}`);
+          if (regalo) {
+            regalo(name, surname, true);
+          }
+        }
+
+        trabajo() {
+          let { name, surname, habilidad } = this;
+          console.log(`senor(a) ${name} ${surname} tu
+          habilidad es ${habilidad} felicidades`);
+        }
+      }
+
+      function regalo(name, surname, saludo) {
+        console.log(`saludo Simple ${name} ${surname}`);
+        if (saludo) {
+          console.log(`saludo personalizado ${name} ${surname} `);
+        }
+      }
+
+      let sonia = new Persona("sonia", "ordonez", 43, "sonia43@outlook.com");
+      let julian = new Ingeniero(
+        "julian",
+        "calambas",
+        23,
+        "julian23@outlook.com",
+        "desarrollo web"
+      );
+
+      let edad = (valor1, valor2) => {
+        let restar = valor1 - valor2;
+        console.log(restar);
+      };
+
+      let suma = (v1, v2) => console.log(v1 + v2);
+      let multiplicar = (v1) => console.log(v1 * 12);
+
+      const mayorEdad = 18;
+
+      let Camila = {
+        nombre: "camila",
+        edad: 31,
+        peso: 75,
+      };
+      let Daniel = {
+        nombre: "daniel",
+        edad: 15,
+        peso: 54,
+      };
+
+      let comparacionEdad = ({ edad }) => edad > mayorEdad;
+
+      function imprimirEdad(d) {
+        if (comparacionEdad(d)) {
+          console.log(`amigo ${d.nombre} eres mayor de edad`);
+        } else {
+          console.log(`amigo ${d.nombre} eres menor de edad`);
+        }
+      }
+      // asincronismo
+
+      // console.log("holi");
+      // console.log("genio");
+      // console.log("bello");
+      // setTimeout(() => console.log("jajja viva el paro"), 1000);
+      // console.log("america");
+      // console.log("campeon");
+
+      const URL_POKEMON = `https://pokeapi.co/api/v2/`;
+      const POKEMON = `pokemon/:id`;
+      const CONX = { crossDomain: true };
+      const bandera = 6;
+
+      let Pokemones = (pokemon) => {
+        // console.log(pokemon);
+        console.log(
+          `hola soy ${pokemon.name} y mi experiencia es ${pokemon.base_experience} XP`
+        );
+      };
+
+      function api() {
+        for (let i = 1; i < bandera; i++) {
+          let url = `${URL_POKEMON}${POKEMON.replace(":id", i)}`;
+          $.get(url, CONX, Pokemones);
+        }
+      }
+      api();
+    </script>
+  </body>
+</html>
