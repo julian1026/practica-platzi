@@ -133,4 +133,4 @@ estamos en la rama cabecera  y estoy feliz sigo aqui
 
 
 
-quiero seguir adelante-- desde cabecera
+quiero seguir adelante-- desde cabecera estoy desde mi main
