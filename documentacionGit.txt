@@ -94,6 +94,16 @@ git merge nombre_rama
 
 
 
+==enlazar repositorio remoto 
+git remote add origin 'url'
+
+=vereficar 
+git remote
+git remote -v
+
+= enviar datos al sevidor remoto
+git push origin main
+
 git log --oneline - Te muestra el id commit y el título del commit.
 git log --decorate- Te muestra donde se encuentra el head point en el log.
 git log --stat - Explica el número de líneas que se cambiaron brevemente.
