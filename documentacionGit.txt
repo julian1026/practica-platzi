@@ -92,7 +92,7 @@ git checkout nommbreRama
 
 git merge nombre_rama
 
-
+==tener en cuenta para el proximo commit
 
 git log --oneline - Te muestra el id commit y el título del commit.
 git log --decorate- Te muestra donde se encuentra el head point en el log.
