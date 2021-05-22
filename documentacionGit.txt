@@ -92,7 +92,7 @@ git checkout nommbreRama
 
 git merge nombre_rama
 
-
+==tener en cuenta para el proximo commit
 
 ==enlazar repositorio remoto 
 git remote add origin 'url'
