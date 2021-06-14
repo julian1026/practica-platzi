@@ -44,6 +44,7 @@
         return promesa(id);
       });
 
+      console.log(promesas_ejecutadas);
       Promise.all(promesas_ejecutadas).then((pokemones) => {
         console.log(pokemones);
         pokemones.forEach(({ name }) => console.log(name));

@@ -19,20 +19,6 @@
       const CONX = { crossDomain: true };
       const bandera = 6;
 
-      // let Pokemones = (pokemon) => {
-      //   // console.log(pokemon);
-      //   console.log(
-      //     `hola soy el mejor pokemon ${pokemon.name} y mi experiencia es ${pokemon.base_experience} XP`
-      //   );
-      // };
-
-      // function api() {
-      //   for (let i = 1; i < bandera; i++) {
-      //     let url = `${URL_POKEMON}${POKEMON.replace(":id", i)}`;
-      //     $.get(url, CONX, Pokemones);
-      //   }
-      // }
-
       function promesa(id) {
         return new Promise((resolve, reject) => {
           let url = `${URL_POKEMON}${POKEMON.replace(":id", id)}`;
