@@ -7,28 +7,28 @@
     <title>my history of life</title>
     <link rel="icon" type="image/png" href="./favicon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- <link rel="stylesheet" href="./css/styles.css" /> -->
+    <link rel="stylesheet" href="./estilos.css" />
   </head>
   <body>
-    <header style="color: red; background: blue">
+    <header class="header">
       <div>
-        <figure>
+        <figure class="logo">
           <img
             src="./Sysmiami-blog-platzi-plataforma-del-momento-.png"
             alt="imagen de http://www.leonidasesteban.com "
           />
         </figure>
-        <nav>
+        <nav class="menu">
           <ol>
-            <li><a href="#portafolio">Portafolio</a></li>
-            <li><a href="#experiencia">Experiencia</a></li>
-            <li><a href="#contacto">Trabajemos Juntos</a></li>
+            <li><a class="link" href="#portafolio">Portafolio</a></li>
+            <li><a class="link" href="#experiencia">Experiencia</a></li>
+            <li><a class="link" href="#contacto">Trabajemos Juntos</a></li>
           </ol>
         </nav>
       </div>
     </header>
 
-    <section>
+    <section class="hero">
       <h1>
         Hola soy <strong>Julian Andres Calambas</strong>, me motiva el
         <strong>Desarrollo Web</strong> <br />
@@ -36,33 +36,52 @@
       </h1>
       <img src="./study.jpg" width="500" height="500" />Imagen Principal
     </section>
-    <section id="portafolio">
+
+    <section id="portafolio" class="portfolio">
       <h2>Portafolio "Proyectos Destacados"</h2>
-      <article>
-        <figure>
-          <img src="./study.jpg" width="500" height="500" alt="" />
-        </figure>
+      <article class="project">
+        <h5 class="project-title">
+          react native App de recomendacion de parqueadero
+        </h5>
         <h6>React Native /react</h6>
-        <p>
+        <p class="project-date">
           <small>fecha de participacion <strong>12/12/2020</strong></small>
         </p>
-        <p>
+        <p class="project-url">
           <small
             >puedes verlo en
             <strong>www.github.com/julian1026/myAppPa</strong></small
           >
         </p>
+        <p class="project-description">
+          There is no waterproofing layer over the garage in the driveway or any
+          area except the pool deck and planters. This has exposed the garage to
+          water intrusion for 40 years. Where there is waterproofing, it has
+          failed. Water has gotten underneath and caused additional damage to
+          the concrete," one presentation, from October of that year, reads.
+        </p>
+        <figure class="project-imageContainer">
+          <img
+            class="project-image"
+            src="./study.jpg"
+            width="500"
+            height="500"
+            alt=""
+          />
+        </figure>
       </article>
     </section>
-    <section id="experiencia">
+    <section id="eventos  ">
       <h2>Mas sobre mi experiencia</h2>
-      <article>
-        <figure>
+      <article class="event">
+        <figure class="image-container">
           <img
+            class="event-image"
             src="../../../julian1026/Pictures/Selection_018.png"
             alt=""
           />image
         </figure>
+        <h3 class="event-title">alcaldia del patia</h3>
         <p>
           He desarrollado aplicaciones, realizando las mejores practicas
           ,obteniendo resultados muy faborables, que me han permitido seguir
@@ -72,21 +91,25 @@
         <figure>
           <img src="./developmen.png" width="500" alt="" />
         </figure>
-        <a href="https://www.youtube.com/watch?v=zBk-Hyv6ykw" target="_blank">
+        <a
+          class="event-url"
+          href="https://www.youtube.com/watch?v=zBk-Hyv6ykw"
+          target="_blank"
+        >
           curso basico de javaScrip</a
         >
       </article>
     </section>
 
-    <section id="contacto">
+    <section id="contacto" class="contact">
       <h4>seccion Contactos</h4>
-      <form action="">
+      <form action="" class="form">
         <label>correo</label>
         <input type="text" placeholder="ingresa tu correo electronico" />
         <button>Enviar</button>
       </form>
     </section>
 
-    <footer>desde el final</footer>
+    <footer class="footer">desde el final</footer>
   </body>
 </html>

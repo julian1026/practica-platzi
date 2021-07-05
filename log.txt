@@ -1,0 +1,266 @@
+commit 95b349f6b163a1347dfb89818cc9751f06b597ac
+Author: julian1026 <juancaor1997@gmail.com>
+Date:   Mon Jun 21 21:17:04 2021 -0500
+
+    creando portafolio
+
+commit af84e9468a77faf3d524c56cbe986f1971781714
+Author: julian1026 <juancaor1997@gmail.com>
+Date:   Sun Jun 13 23:44:26 2021 -0500
+
+    de uevo
+
+commit b0ee9658a8bbeafefeb6ade53d1f5cf473cea2d3
+Merge: 91e750d 0f330d0
+Author: julian1026 <juancaor1997@gmail.com>
+Date:   Sat May 22 10:40:06 2021 -0500
+
+    casa se llevo a main
+    Merge branch 'casa' into main
+
+commit 0f330d0156c770916947447444714b16d6c043d9
+Author: julian1026 <juancaor1997@gmail.com>
+Date:   Sat May 22 10:38:45 2021 -0500
+
+    linea 95 desde rama casa
+
+commit 91e750d3a83d181369a751f657d8440d639127aa
+Author: julian1026 <juancaor1997@gmail.com>
+Date:   Thu May 6 22:47:09 2021 -0500
+
+    copiA
+
+commit b051d0959ab24575b9c91886fd807310e17ed140
+Author: julian1026 <33234916+julian1026@users.noreply.github.com>
+Date:   Tue May 4 10:50:06 2021 -0500
+
+    Create README.md
+    
+    aprendiendo git
+
+commit bf0ea7b779d7438ebd0f449b054448dc3b786aa7
+Author: julian1026 <juancaor1997@gmail.com>
+Date:   Tue May 4 10:36:03 2021 -0500
+
+    v02 documetacion
+
+commit 3476e9881283ddc732de31ac980ccd051b59a62d
+Author: julian1026 <juancaor1997@gmail.com>
+Date:   Tue May 4 10:02:37 2021 -0500
+
+    mas comandos
+
+commit 27b5b7ead4c5b377a441b4e5d43131be48425086
+Author: julian1026 <juancaor1997@gmail.com>
+Date:   Sat May 1 16:05:23 2021 -0500
+
+    corriguiendo errores
+
+commit 99170dcbd49c329a559ca44d5a079dd411d12a81
+Merge: 9a12690 ce108f3
+Author: julian1026 <juancaor1997@gmail.com>
+Date:   Sat May 1 15:51:08 2021 -0500
+
+    rama main con casa
+
+commit ce108f3ba485c51a107fe55b2d9b2baf2f0c3cff
+Author: julian1026 <juancaor1997@gmail.com>
+Date:   Sat May 1 15:22:40 2021 -0500
+
+    mensaje desde casa
+
+commit 9a12690b0ce5aa98a6efa098721e253bb79d6dc6
+Author: julian1026 <juancaor1997@gmail.com>
+Date:   Sat May 1 15:17:34 2021 -0500
+
+    estoy desde mi main 136
+
+commit 8b0b7b7d81fdf8bf6cee50f79ca0a44cbc093ddf
+Author: julian1026 <juancaor1997@gmail.com>
+Date:   Sat May 1 14:19:27 2021 -0500
+
+    clases javaScript curso2
+
+commit f681a704e79958f63995b139010a36722ad97d5e
+Merge: 348aec6 b9d5540
+Author: julian1026 <juancaor1997@gmail.com>
+Date:   Thu Apr 29 15:16:17 2021 -0500
+
+    realizando merge de datos felices
+
+commit b9d5540f778864220422a7d88df695aa9253b252
+Author: julian1026 <juancaor1997@gmail.com>
+Date:   Thu Apr 29 15:08:27 2021 -0500
+
+    desde cambecera,sigo adelante
+
+commit 348aec6e5c4371fdac82f34cdbef695332de77ad
+Author: julian1026 <juancaor1997@gmail.com>
+Date:   Thu Apr 29 15:06:03 2021 -0500
+
+    estoy feliz desde main
+
+commit 64ae15bc12b342fda3206d61f9b041dff4464179
+Merge: ce120d8 529799d
+Author: julian1026 <juancaor1997@gmail.com>
+Date:   Thu Apr 29 01:06:30 2021 -0500
+
+    fuccionando main con body
+
+commit 529799d7a186ebe22d2904ce95afe27e013096d3
+Author: julian1026 <juancaor1997@gmail.com>
+Date:   Thu Apr 29 01:03:44 2021 -0500
+
+    desde body
+
+commit ce120d87da47a481ac13d761b25ceb55a5e2de6b
+Author: julian1026 <juancaor1997@gmail.com>
+Date:   Thu Apr 29 01:01:23 2021 -0500
+
+    rama principal1
+
+commit 00f71bbb52c29bd0927435b2a0968695696bd135
+Merge: fd0e049 7f0f092
+Author: julian1026 <juancaor1997@gmail.com>
+Date:   Wed Apr 28 09:42:20 2021 -0500
+
+    resolviendo conflitos
+
+commit 7f0f092e0d112ba50fd9595877bd12f736d0c839
+Author: julian1026 <juancaor1997@gmail.com>
+Date:   Wed Apr 28 09:38:10 2021 -0500
+
+    estoy feliz desde body
+
+commit fd0e0497be3a48e001ee3fbcf6c29c9960ae2ed2
+Author: julian1026 <juancaor1997@gmail.com>
+Date:   Wed Apr 28 09:32:12 2021 -0500
+
+    body desde rama main
+
+commit 54318b91f5b9caa54cd02b83154dc0542b83e4cb
+Merge: 1cb8bd9 c94982b
+Author: julian1026 <juancaor1997@gmail.com>
+Date:   Wed Apr 28 00:22:42 2021 -0500
+
+    importando cabeceraMerge branch 'cabecera' into main
+
+commit c94982b8c9cb9bcc2a389bf6baebff9660280202
+Author: julian1026 <juancaor1997@gmail.com>
+Date:   Wed Apr 28 00:04:28 2021 -0500
+
+    cabecera
+
+commit 1cb8bd9434f2bda455fde076dcb80c60fc26a65a
+Author: julian1026 <juancaor1997@gmail.com>
+Date:   Wed Apr 28 00:02:23 2021 -0500
+
+    valores
+
+commit 8e77b2ab79256ec12363497224be2b0f5f58fc0f
+Author: julian1026 <juancaor1997@gmail.com>
+Date:   Tue Apr 27 23:26:35 2021 -0500
+
+    agregando todos
+
+commit 1f7c5ebb6d5937e77c21361abe3fac04775c63f9
+Author: julian1026 <juancaor1997@gmail.com>
+Date:   Fri Apr 2 23:00:05 2021 -0500
+
+    I go to follow learning english
+
+commit f067e9fb38c77ebff445b58eeb464588529f7956
+Author: julian1026 <juancaor1997@gmail.com>
+Date:   Thu Apr 1 14:37:25 2021 -0500
+
+    backup of commits
+
+commit 04d9ab99768e8a38871c4fc4a483b0355005e474
+Author: julian1026 <juancaor1997@gmail.com>
+Date:   Thu Apr 1 00:22:50 2021 -0500
+
+    mas  contenido a documentacion
+
+commit 580b310a2b043d59348577cc0aa147f5c2e1310e
+Author: julian1026 <juancaor1997@gmail.com>
+Date:   Sun Mar 28 02:27:25 2021 -0500
+
+    volviendo a rescribir la historia de mi archivo english
+
+commit 5647045f3ebb1cf4a22992ec9927fcfa703d98e7
+Author: julian1026 <juancaor1997@gmail.com>
+Date:   Sun Mar 28 02:22:55 2021 -0500
+
+    cambiando la historia de una de mis versiones
+
+commit 3dee5f3d09193182e935076b292ccfd3cac31f90
+Author: julian1026 <juancaor1997@gmail.com>
+Date:   Sun Mar 28 01:56:54 2021 -0500
+
+    how was that
+
+commit d8aea1986af2d0194ce095f12b06f00a24dfbfc2
+Author: julian1026 <juancaor1997@gmail.com>
+Date:   Sun Mar 28 01:48:41 2021 -0500
+
+    never give up
+
+commit f56d2a114489d74d7cacbaa8ec6f853107b156a9
+Author: julian1026 <juancaor1997@gmail.com>
+Date:   Sun Mar 28 01:45:03 2021 -0500
+
+    arraco mi proyecto real con html y css
+
+commit 2a6434e85c99696a9d79b0cd931a26bc4b6ed0e5
+Author: julian1026 <juancaor1997@gmail.com>
+Date:   Sun Mar 28 00:18:50 2021 -0500
+
+    agregando ultimos comandos
+
+commit e1ce9d110801eda097335ff1c0da369ae501f8f1
+Author: julian1026 <juancaor1997@gmail.com>
+Date:   Sat Mar 27 22:58:30 2021 -0500
+
+    agregando mas informacion a documentacion
+
+commit 85fd58fdaa0e76d33bfcd8aa097a80ccee09ce6c
+Author: julian1026 <juancaor1997@gmail.com>
+Date:   Thu Mar 25 23:37:51 2021 -0500
+
+    agregando mensaje
+
+commit 721738f1ed0d231a13c5c1307fe6fa34c75f8825
+Author: julian1026 <juancaor1997@gmail.com>
+Date:   Thu Mar 25 23:19:02 2021 -0500
+
+    notas del curso
+
+commit 6a678719f4a6d5e9cad7ee7f903be2cc21ed0441
+Author: julian1026 <juancaor1997@gmail.com>
+Date:   Thu Mar 25 22:04:52 2021 -0500
+
+    agregando verbos en ingles
+
+commit 260047f9a99b52e89bf6d7645f9da050f562bfb6
+Author: julian1026 <juancaor1997@gmail.com>
+Date:   Thu Mar 25 21:48:53 2021 -0500
+
+    quitando estoy feliz
+
+commit dd47dba9b5f1522d80c1bc71e896cbf375824fa8
+Author: julian1026 <juancaor1997@gmail.com>
+Date:   Thu Mar 25 21:12:18 2021 -0500
+
+    config git
+
+commit 1aba0118b441f87460574f2037aab1d20d2ad71a
+Author: julian1026 <33234916+julian1026@users.noreply.github.com>
+Date:   Thu Mar 25 20:58:42 2021 -0500
+
+    saludo en english
+
+commit d1b791af10fb86bc7fe74997c7ad0ab327ce1a7d
+Author: julian1026 <33234916+julian1026@users.noreply.github.com>
+Date:   Thu Mar 25 20:49:25 2021 -0500
+
+    primer parrafo
