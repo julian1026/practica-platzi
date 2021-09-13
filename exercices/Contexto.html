@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      this.nombre = "contexto global";
+      function imprimir() {
+        console.log(this.nombre);
+      }
+      //   imprimir();
+
+      let obj1 = {
+        nombre: "contexto objeto",
+        imprimir: function () {
+          console.log(this.nombre);
+        },
+      };
+
+      let obj2 = {
+        nombre: "contexto objeto2",
+        imprimir,
+      };
+
+      let obj3 = {
+        nombre: "contexto objeto3",
+        imprimir: () => {
+          console.log(this.nombre);
+        },
+      };
+
+      //   obj1.imprimir();
+
+      //   obj2.imprimir();
+      //   obj3.imprimir();
+
+      function Persona(nombre) {
+        const that = this;
+        that.nombre = nombre;
+        return function () {
+          console.log(that.nombre);
+        };
+        // return () => console.log(this.nombre);
+      }
+      let p = new Persona("julian");
+      //   p();
+
+      // function call, apply, bind
+
+      this.lugar = "contesto global";
+      console.log(this.lugar);
+
+      function saludar(saludo, aquien) {
+        console.log(`${saludo} ${aquien} desde ${this.lugar} `);
+      }
+
+      const love = {
+        lugar: "contesto local 12",
+      };
+      const work = {
+        lugar: "contesto trabajo",
+      };
+
+      saludar.call(love, "hola", "julian");
+      saludar.apply(work, ["que mas", "andres"]);
+
+      const Person = {
+        name: "daniel",
+        saludar: function () {
+          console.log("hola " + this.name);
+        },
+      };
+      this.name = "sonia";
+      const newPerson = {
+        saludar: Person.saludar.bind(this),
+      };
+      Person.saludar();
+      newPerson.saludar();
+    </script>
+  </body>
+</html>
