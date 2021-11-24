@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+
+    <script>
+      const URL_POKEMON = `https://pokeapi.co/api/v2/`;
+      const POKEMON = `pokemon/:id`;
+      const CONX = { crossDomain: true };
+      const bandera = 15;
+
+      function promesa(id) {
+        return new Promise((resolve, reject) => {
+          let url = `${URL_POKEMON}${POKEMON.replace(":id", id)}`;
+          $.get(url, CONX, (pokemon) => {
+            resolve(pokemon);
+          }).fail(() => {
+            reject(id);
+          });
+        });
+      }
+
+      function errores(id) {
+        console.log(`no se pudo encontrar ${id}`);
+      }
+
+      let ids_pokemones = [];
+
+      for (let i = 1; i < bandera; i++) {
+        ids_pokemones.push(i);
+      }
+
+      let promesas_ejecutadas = ids_pokemones.map(function (id) {
+        return promesa(id);
+      });
+
+      console.log(promesas_ejecutadas);
+      Promise.all(promesas_ejecutadas).then((pokemones) => {
+        console.log(pokemones);
+        pokemones.forEach(({ name }) => console.log(name));
+      });
+    </script>
+  </body>
+</html>

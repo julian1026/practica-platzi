@@ -1,0 +1,26 @@
+/*regla css
+
+selectrores
+declaraciones
+propiedades
+valores
+ 
+*/
+
+/* selector de etiqueta  */
+header {
+background-color:green;
+color: red;
+}
+
+/* selector de clase */
+
+.link {
+
+}
+
+
+/* selector de id */
+#portafolio {
+
+}

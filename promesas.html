@@ -19,21 +19,7 @@
       const CONX = { crossDomain: true };
       const bandera = 6;
 
-      let Pokemones = (pokemon) => {
-        // console.log(pokemon);
-        console.log(
-          `hola soy ${pokemon.name} y mi experiencia es ${pokemon.base_experience} XP`
-        );
-      };
-
-      function api() {
-        for (let i = 1; i < bandera; i++) {
-          let url = `${URL_POKEMON}${POKEMON.replace(":id", i)}`;
-          $.get(url, CONX, Pokemones);
-        }
-      }
-
-      function obtenerPokemon(id) {
+      function promesa(id) {
         return new Promise((resolve, reject) => {
           let url = `${URL_POKEMON}${POKEMON.replace(":id", id)}`;
           $.get(url, CONX, (pokemon) => {
@@ -44,35 +30,102 @@
         });
       }
 
-      obtenerPokemon(1)
+      function errores(id) {
+        console.log(`no se pudo encontrar ${id}`);
+      }
+
+      promesa(1)
         .then((pokemon) => {
-          console.log(`soy ${pokemon.name} el mejor pokemon`);
-          return obtenerPokemon(2);
+          console.log(
+            `soy ${pokemon.name} el mejor pokemon ${pokemon.base_experience} XP, disfruta de la vida`
+          );
+          return promesa(2);
         })
         .then((pokemon) => {
-          console.log(`soy ${pokemon.name} el mejor pokemon`);
-          return obtenerPokemon(3);
+          console.log(
+            `soy ${pokemon.name} el mejor pokemon ${pokemon.base_experience} XP, disfruta de la vida`
+          );
+          return promesa(3);
         })
         .then((pokemon) => {
-          console.log(`soy ${pokemon.name} el mejor pokemon`);
-          return obtenerPokemon(4);
+          console.log(
+            `soy ${pokemon.name} el mejor pokemon ${pokemon.base_experience} XP, disfruta de la vida`
+          );
+          return promesa(4);
         })
         .then((pokemon) => {
-          console.log(`soy ${pokemon.name} el mejor pokemon`);
-          return obtenerPokemon(5);
+          console.log(
+            `soy ${pokemon.name} el mejor pokemon ${pokemon.base_experience} XP, disfruta de la vida`
+          );
+          return promesa(5);
         })
         .then((pokemon) => {
-          console.log(`soy ${pokemon.name} el mejor pokemon`);
-          return obtenerPokemon(6);
+          console.log(
+            `soy ${pokemon.name} el mejor pokemon ${pokemon.base_experience} XP, disfruta de la vida`
+          );
+          return promesa(6);
         })
         .then((pokemon) => {
-          console.log(`soy ${pokemon.name} el mejor pokemon`);
-          return obtenerPokemon(7);
+          console.log(
+            `soy ${pokemon.name} el mejor pokemon ${pokemon.base_experience} XP, disfruta de la vida`
+          );
+          return promesa(7);
         })
         .then((pokemon) => {
-          console.log(`soy ${pokemon.name} el mejor pokemon`);
-          return obtenerPokemon(8);
-        });
+          console.log(
+            `soy ${pokemon.name} el mejor pokemon ${pokemon.base_experience} XP, disfruta de la vida`
+          );
+          return promesa(8);
+        })
+        .then((pokemon) => {
+          console.log(
+            `soy ${pokemon.name} el mejor pokemon ${pokemon.base_experience} XP, disfruta de la vida`
+          );
+          return promesa(9);
+        })
+        .then((pokemon) => {
+          console.log(
+            `soy ${pokemon.name} el mejor pokemon ${pokemon.base_experience} XP, disfruta de la vida`
+          );
+          return promesa(10);
+        })
+        .then((pokemon) => {
+          console.log(
+            `soy ${pokemon.name} el mejor pokemon ${pokemon.base_experience} XP, disfruta de la vida`
+          );
+          return promesa(11);
+        })
+        .then((pokemon) => {
+          console.log(
+            `soy ${pokemon.name} el mejor pokemon ${pokemon.base_experience} XP, disfruta de la vida`
+          );
+          return promesa(12);
+        })
+        .then((pokemon) => {
+          console.log(
+            `soy ${pokemon.name} el mejor pokemon ${pokemon.base_experience} XP, disfruta de la vida`
+          );
+          return promesa(13);
+        })
+        .then((pokemon) => {
+          console.log(
+            `soy ${pokemon.name} el mejor pokemon ${pokemon.base_experience} XP, disfruta de la vida`
+          );
+          return promesa(14);
+        })
+        .then((pokemon) => {
+          console.log(
+            `soy ${pokemon.name} el mejor pokemon ${pokemon.base_experience} XP, disfruta de la vida`
+          );
+          return promesa(15);
+        })
+        .then((pokemon) => {
+          console.log(
+            `soy ${pokemon.name} el mejor pokemon ${pokemon.base_experience} XP, disfruta de la vida`
+          );
+          return promesa(16);
+        })
+        .catch(errores);
 
       // .catch((error) => console.log(error));
     </script>
