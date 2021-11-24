@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dom</title>
+    <style>
+      :root {
+        --yellow-color: #f7df1e;
+        --dark-color: #222;
+      }
+
+      .eventos-flujo div {
+        padding: 4rem;
+        font-size: 2rem;
+        text-align: center;
+      }
+
+      .uno {
+        background-color: yellow;
+      }
+      .dos {
+        background-color: gold;
+      }
+      .tres {
+        background-color: lightyellow;
+      }
+    </style>
+  </head>
+  <body>
+    <h3>manejando el dom</h3>
+
+    <hr />
+    <br />
+
+    <p id="que-es">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, itaque cum
+      eveniet omnis consequuntur illo commodi explicabo inventore beatae, amet
+      harum sequi doloremque nisi eaque molestias laboriosam, dolorem voluptatem
+      placeat.
+    </p>
+    <hr />
+    <br />
+    <nav id="menu">
+      <ul>
+        <li><a href="#">Seccion 1</a></li>
+        <li><a href="#">Seccion 2</a></li>
+        <li><a href="#">Seccion 3</a></li>
+        <li><a href="#">Seccion 4</a></li>
+        <li><a href="#">Seccion 4</a></li>
+      </ul>
+    </nav>
+    <input type="text" name="nombre" placeholder="nombre" />
+    <a href="dom.html" class="link-dom" data-description="data object">Dom</a>
+
+    <section class="cards">
+      <figure class="card">
+        <img src="https://placeimg.com/200/200/tech" alt="Tech" />
+        <figcaption>Tech</figcaption>
+      </figure>
+      <figure class="card">
+        <img src="https://placeimg.com/200/200/animals" alt="Animals" />
+        <figcaption>Animals</figcaption>
+      </figure>
+      <figure class="card">
+        <img src="https://placeimg.com/200/200/people" alt="People" />
+        <figcaption>People</figcaption>
+      </figure>
+      <figure class="card">
+        <img src="https://placeimg.com/200/200/arch" alt="Arch" />
+        <figcaption>Arch</figcaption>
+      </figure>
+      <figure class="card">
+        <img src="https://placeimg.com/200/200/nature" alt="Nature" />
+        <figcaption>Nature</figcaption>
+      </figure>
+
+      <template id="template-card">
+        <figure class="card">
+          <img />
+          <figcaption></figcaption>
+        </figure>
+      </template>
+    </section>
+
+    <template id="template-table">
+      <table>
+        <thead>
+          <tr id="cabecera">
+            <th></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr id="cuerpo">
+            <td></td>
+          </tr>
+        </tbody>
+      </table>
+    </template>
+
+    <h4>Flujo de eventos</h4>
+    <section class="eventos-flujo">
+      <div class="uno">
+        1
+        <div class="dos">
+          2
+          <div class="tres">
+            3
+            <a href="https://jonmircha.com/" target="_blank" rel="noopener"
+              >ingresa</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <script src="./dom.js"></script>
+  </body>
+</html>

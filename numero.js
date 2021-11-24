@@ -60,5 +60,3 @@ console.log(lawyer.complemento());
 
 
 
-
-

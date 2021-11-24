@@ -1,0 +1,86 @@
+{
+  "santos": [
+    {
+      "nombre": "goku",
+      "constelacion": "sayayin",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "nombre": "Shiryu",
+      "constelacion": "Dragon"
+    },
+    {
+      "id": 5,
+      "nombre": "ikki",
+      "constelacion": "Fenix"
+    },
+    {
+      "id": 6,
+      "nombre": "rigel",
+      "constelacion": "osa mayor"
+    },
+    {
+      "id": "7",
+      "nombre": "teo",
+      "constelacion": "espada"
+    },
+    {
+      "nombre": "love",
+      "constelacion": "proxima centairy",
+      "id": "QBhlkwD"
+    },
+    {
+      "nombre": "santi",
+      "constelacion": "star",
+      "id": "np2zq9B"
+    },
+    {
+      "nombre": "cell",
+      "constelacion": "android",
+      "id": "w7DJwlc"
+    },
+    {
+      "nombre": "ten",
+      "constelacion": "star",
+      "id": "bW_wMKi"
+    },
+    {
+      "nombre": "boo",
+      "constelacion": "monstruo",
+      "id": "dsIPXin"
+    },
+    {
+      "nombre": "satan",
+      "constelacion": "humanoide",
+      "id": "zHsfX1E"
+    },
+    {
+      "nombre": "cells",
+      "constelacion": "android",
+      "id": "1H95WD1"
+    }
+  ],
+  "dioses": [
+    {
+      "id": 1,
+      "nombre": "Athena",
+      "de": "Tierra"
+    },
+    {
+      "id": 2,
+      "nombre": "Poseidon",
+      "de": "Mar"
+    },
+    {
+      "id": 3,
+      "nombre": "Hades",
+      "de": "Inframundo"
+    },
+    {
+      "id": 4,
+      "nombre": "Zeus",
+      "de": "Cielo"
+    }
+  ]
+}
